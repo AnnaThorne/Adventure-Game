@@ -1,0 +1,9 @@
+image: maven:3.8-openjdk-11
+build:
+    script:
+        - "mvn install -B"
+    only:
+        - master
+    artifacts:
+        paths:
+            - target/*.jar
