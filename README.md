@@ -1,2 +1,2 @@
 # Adventure-Game
-Text based adventure game written in java.
+Adventure game with a simple GUI written in Java.
